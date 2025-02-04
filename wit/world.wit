@@ -1,0 +1,9 @@
+package example:pkg;
+
+interface example {
+    test: func() -> future<result<list<string>>>;
+}
+
+world example-world {
+    export example;
+}
