@@ -1,7 +1,9 @@
 package example:pkg;
 
 interface example {
-    test: func() -> future<result<list<string>>>;
+    test1: func() -> future<result<list<string>>>;
+    test2: func() -> future<result<list<list<u8>>>>;
+    test3: func() -> future<list<list<list<u8>>>>;
 }
 
 world example-world {
